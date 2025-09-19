@@ -1,0 +1,4 @@
+name: dounko
+version: '1.21.4-1.0'
+main: me.lninyu.dounko.Dounko
+api-version: '1.21'
