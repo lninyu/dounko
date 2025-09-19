@@ -43,8 +43,7 @@ public class Unko {
 	}
 
 	public void kill() {
-		unko[0].getWorld().spawnParticle(Particle.BLOCK, unko[0].getLocation(), 20, Material.DIRT.createBlockData());
-		unko[0].getWorld().playSound(unko[0], Sound.BLOCK_SLIME_BLOCK_BREAK, 1, 0);
+		unko[0].getWorld().spawnParticle(Particle.BLOCK, unko[0].getLocation(), 10, Material.DIRT.createBlockData());
 		for (var layer : unko) if (layer != null && layer.isValid()) layer.remove();
 	}
 }
